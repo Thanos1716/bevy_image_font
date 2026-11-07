@@ -51,10 +51,10 @@ bevy_ui_render = { version = "0.19", optional = true }
 bmfont_rs = { version = "0.4", features = ["xml"] }
 camino = { version = "1.2.1", features = ["serde1"] }
 derive_setters = "0.1"
-itertools = "0.14"
+itertools = "0.15"
 ron = "0.12"
 serde = { version = "1", features = ["derive"] }
-strum = { version = "0.27", features = ["derive"] }
+strum = { version = "0.28", features = ["derive"] }
 thiserror = "2"
 
 [dependencies.image]
